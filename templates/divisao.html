@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Divisão</title>
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for('index') }}">Início</a> |
+        <a href="{{ url_for('soma_page') }}">Soma</a> |
+        <a href="{{ url_for('subtracao_page') }}">Subtração</a> |
+        <a href="{{ url_for('multiplicacao_page') }}">Multiplicação</a> |
+        <a href="{{ url_for('divisao_page') }}">Divisão</a>
+    </nav>
+    <h1>Operação de Divisão</h1>
+    <label for="valor1">Primeiro número:</label>
+    <input type="number" step="any" id="valor1"><br><br>
+    <label for="valor2">Segundo número:</label>
+    <input type="number" step="any" id="valor2"><br><br>
+    <button type="button" onclick="calcularDivisao()">Calcular Divisão</button>
+    <h2 id="resultado" role="status" aria-live="polite"></h2>
+</body>
+</html>
