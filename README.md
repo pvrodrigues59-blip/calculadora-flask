@@ -140,3 +140,11 @@ git push origin paulo_victor_rodrigues_alves_da_silva:main
 O professor solicitou histórico de commits; portanto, faça e registre efetivamente as alterações de desenvolvimento antes da entrega.
 
 Fontes para estudo: [Documentação Flask](https://flask.palletsprojects.com/en/stable/quickstart/), [Flask e JavaScript](https://flask.palletsprojects.com/en/stable/patterns/javascript/) e [Documentação GitHub](https://docs.github.com/en/get-started/using-git/about-git).
+
+## Objetivo do projeto
+
+Este projeto foi desenvolvido como atividade acadêmica
+para praticar o desenvolvimento de aplicações web
+utilizando Python, Flask, HTML e JavaScript.
+
+Aluno: Paulo Victor Rodrigues Alves da Silva
